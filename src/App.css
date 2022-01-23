@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
+.App{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+min-height: 100vh;
+background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.app-name{
+  font-family:'Courier New', Courier, monospace;
+  font-style: italic;
+  display:flex;  
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 40px;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  }
+.search-button{
+ background:lightcoral;
+ border: none;
+ padding: 10px 20px;
+ color: white; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipes{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  
 }
